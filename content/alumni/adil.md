@@ -4,8 +4,9 @@ name = "Adil Bin Bhutto"
 portrait = "portraits/adil-photo.jpg"
 short_bio = "Development of INDRA Dashboard"
 title = "Adil Bin Bhutto"
-sort_position = 1
-external_link = "www.linkedin.com/in/"
+sort_position = 1 
+weight = 6
+external_link = "www.linkedin.com"
 
 [[social]]
     icon = "website"

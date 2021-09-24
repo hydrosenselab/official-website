@@ -79,13 +79,6 @@ tag = "tags"
     count = 3
     str_all = "More Projects"
 
-  # Vacancies section
-  # Section will only be displayed if there are valid vacancies in `content/vacancy`
-  [params.open_projects]
-    title = "Open projects"
-    subtitle = ""
-    count = 3
-    str_all = "All open projects"
 
   # Contact section.
   [params.contact]
@@ -106,12 +99,6 @@ tag = "tags"
     name = "Publications"
     url = "/#publications"
     parent="research"
-    weight = 3
-
-  [[menu.main]]
-    name = "Starter's guide"
-    url = "/research/starter-guide"
-    parent="joinus"
     weight = 3
 
   [[menu.main]]
@@ -137,38 +124,10 @@ tag = "tags"
     weight = 5
 
   [[menu.main]]
-    name = "Software"
-    weight = 3
-    identifier = "software"
-
-  [[menu.main]]
-    name = "ForneyLab.jl"
-    url = "https://biaslab.github.io/ForneyLab.jl/stable/"
-    parent = "software"
-    weight = 1
-
-  [[menu.main]]
-    name = "Rocket.jl"
-    url = "https://biaslab.github.io/Rocket.jl/stable"
-    parent = "software"
-    weight = 2
-
-  [[menu.main]]
-    name = "ReactiveMP.jl"
-    url = "https://biaslab.github.io/ReactiveMP.jl/stable"
-    parent = "software"
-    weight = 2
-
-  [[menu.main]]
     name = "Join us"
-    url = "#open-projects"
+    url = "/join/intro"
     weight = 6
     identifier="joinus"
-
-  [[menu.main]]
-    name = "Open projects"
-    url = "/open-projects"
-    parent = "joinus"
 
   [[menu.main]]
     name = "Contact"
@@ -177,5 +136,6 @@ tag = "tags"
 
   [[menu.main]]
     name = "Teaching"
-    url = "/teaching/bmlip"
+    url = "/teaching/introduction"
     weight = 2
+

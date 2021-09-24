@@ -1,6 +1,6 @@
 +++
 id = "msaharia"
-name = "Manabendra Saharia, Ph.D."
+name = "Manabendra Saharia, Ph.D"
 portrait = "portraits/msaharia-photo.jpg"
 short_bio = "Dr. Manabendra Saharia is an Assistant Professor in the Department of Civil Engineering at the Indian Institute of Technology Delhi."
 title = "Manabendra Saharia, Ph.D"
