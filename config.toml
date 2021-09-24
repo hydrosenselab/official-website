@@ -1,0 +1,181 @@
+publishdir = "public"
+static = "/static"
+builddrafts = false
+# Replace this with your website URL
+baseurl = "https://hydrosense.iitd.ac.in"
+canonifyurls = true
+theme = "academic-group"
+title = "HydroSense Lab"
+math = true
+copyright = "&copy; Hydrosense Lab, 2021 "
+enableRobotsTXT = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Website of research group"
+  author = "Hydrosense Lab"
+  phone = "+91-011-26591260"
+  email = "msaharia@iitd.ac.in"
+  address = '<a href="https://www.google.com/maps/place/Indian+Institute+of+Technology+Delhi/@26.8626192,73.9552073,7z/data=!4m19!1m13!4m12!1m4!2m2!1d75.8417746!2d25.1536776!4e1!1m6!1m2!1s0x390d1df6b9055fb5:0x81c10b266b1ea3c0!2sWater+Resources+Engineering+Section,Department+of+Civil+Engineering,Indian+Institute+of+Technology+(IIT)+Delhi,+Hauz+Khas,+New+Delhi+-+110016,+India.!2m2!1d77.1927679!2d28.545718!3m4!1s0x390d1df6b9055fb5:0x81c10b266b1ea3c0!8m2!3d28.545718!4d77.1927679">Water Resources Engineering Section, Department of Civil Engineering, Indian Institute of Technology (IIT) Delhi, Hauz Khas, New Delhi - 110016, India.</a>'
+  slogan = "HydroSense<b>Lab</b>"
+  slogan_icon = "icon-spsbrats_logo"
+  slogan_text = "Bayesian Intelligent Autonomous Systems"
+  custom_css = ["biaslab.css"]
+  landing_heading = "HydroSense Lab"
+  landing_description = "Monitoring and Mitigating Natural Hazards"
+  positions_available = true
+
+  [params.logo]
+    image = "img/logo2.svg"
+    link = "/#home"
+
+#  [[params.navbar_hierarchy]]
+#    name = "SPS"
+#    link = "https://www.tue.nl/en/research/research-groups/signal-processing-systems/"
+#    position = 1
+
+#  [[params.navbar_hierarchy]]
+#    name = "HydroSense Lab"
+#    link = "/"
+#    position = 2
+
+  # Selected Publications section.
+  [params.publications_selected]
+    detailed_list = true
+    title = "Selected Publications"
+    subtitle = ""
+
+  # Publications section.
+  # Section will only be displayed if there are publications in `content/publication/`.
+  [params.publications]
+    count = 5
+    detailed_list = false
+    title = "Publications"
+    subtitle = ""
+    str_all = "More Publications"
+
+  # Posts section.
+  # Section will only be displayed if there are posts in `content/post/`.
+  [params.posts]
+    count = 2
+    title = "Blog"
+    subtitle = ""
+    str_all = "More Posts"
+    str_read_more = "Read more"
+
+  # Projects section.
+  # Section will only be displayed if there are projects in `content/project/`.
+  [params.projects]
+    title = "Projects"
+    subtitle = ""
+    count = 3
+    str_all = "More Projects"
+
+  # Vacancies section
+  # Section will only be displayed if there are valid vacancies in `content/vacancy`
+  [params.open_projects]
+    title = "Open projects"
+    subtitle = ""
+    count = 3
+    str_all = "All open projects"
+
+  # Contact section.
+  [params.contact]
+    enable = true
+    title = "Contact"
+    subtitle = ""
+    autolink = false  # Automatically link email and phone?
+
+  # Navigation Links
+  #   The weight parameter defines the order that the links will appear in.
+
+  [[menu.main]]
+    name = "Home"
+    url = "/#home"
+    weight = 1
+
+  [[menu.main]]
+    name = "Publications"
+    url = "/#publications"
+    parent="research"
+    weight = 3
+
+  [[menu.main]]
+    name = "Starter's guide"
+    url = "/research/starter-guide"
+    parent="joinus"
+    weight = 3
+
+  [[menu.main]]
+    name = "Research"
+    weight = 2
+    identifier = "research"
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/#projects"
+    parent = "research"
+    weight = 2
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/#posts"
+    parent = "research"
+    weight = 4
+
+  [[menu.main]]
+    name = "Team"
+    url = "/#members"
+    weight = 5
+
+  [[menu.main]]
+    name = "Software"
+    weight = 3
+    identifier = "software"
+
+  [[menu.main]]
+    name = "ForneyLab.jl"
+    url = "https://biaslab.github.io/ForneyLab.jl/stable/"
+    parent = "software"
+    weight = 1
+
+  [[menu.main]]
+    name = "Rocket.jl"
+    url = "https://biaslab.github.io/Rocket.jl/stable"
+    parent = "software"
+    weight = 2
+
+  [[menu.main]]
+    name = "ReactiveMP.jl"
+    url = "https://biaslab.github.io/ReactiveMP.jl/stable"
+    parent = "software"
+    weight = 2
+
+  [[menu.main]]
+    name = "Join us"
+    url = "#open-projects"
+    weight = 6
+    identifier="joinus"
+
+  [[menu.main]]
+    name = "Open projects"
+    url = "/open-projects"
+    parent = "joinus"
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/#contact"
+    weight = 7
+
+  [[menu.main]]
+    name = "Teaching"
+    url = "/teaching/bmlip"
+    weight = 2
