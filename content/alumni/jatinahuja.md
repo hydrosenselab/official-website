@@ -5,7 +5,7 @@ portrait = "portraits/default.svg"
 short_bio = ""
 title = "Jatin Ahuja"
 sort_position = 3
-weight = 6
+weight = 4
 external_link = "https://www.linkedin.com"
 
 [[social]]
