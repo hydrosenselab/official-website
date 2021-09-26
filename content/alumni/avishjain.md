@@ -5,7 +5,6 @@ portrait = "portraits/avishjain-photo.jpg"
 short_bio = ""
 title = "Avish Jain"
 sort_position = 2
-weight = 6
 external_link = "https://www.linkedin.com"
 
 [[social]]

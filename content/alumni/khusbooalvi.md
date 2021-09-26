@@ -5,7 +5,6 @@ portrait = "portraits/khusbooalvi-photo.jpg"
 short_bio = ""
 title = "Khushboo Alvi"
 sort_position = 2
-weight = 5
 external_link = "https://www.linkedin.com"
 
 [[social]]

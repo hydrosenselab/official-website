@@ -5,7 +5,7 @@ portrait = "portraits/arunik-baruah.jpg"
 short_bio = "Arunik Baruah has an Integrated M.Tech degree in Geoinformatics from Central University of Jharkhand"
 title = "Arunik Baruah"
 weight = 1
-sort_position = 3
+sort_position = 8
 
 [[social]]
     icon = "globe"

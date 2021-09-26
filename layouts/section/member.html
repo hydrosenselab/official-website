@@ -34,23 +34,8 @@
 
 <div class="container">
     <h1>Alumni</h1>
-    <h2>PhD and Project Staff</h2>
     {{ range where .Site.RegularPages "Section" "alumni" }}
-        {{ if eq .Params.weight 4}}
-            {{partial "alumni_li" .}}
-        {{ end }}
-    {{ end }}
-    <h2>Master's Student</h2>
-    {{ range where .Site.RegularPages "Section" "alumni" }}
-        {{ if eq .Params.weight 5}}
-            {{partial "alumni_li" .}}
-        {{ end }}
-    {{ end }}
-    <h2>Undergraduate Students</h2>
-    {{ range where .Site.RegularPages "Section" "alumni" }}
-        {{ if eq .Params.weight 6}}
-            {{partial "alumni_li" .}}
-        {{ end }}
+        {{ partial "alumni_li" . }}
     {{ end }}
 </div>
 

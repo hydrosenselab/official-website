@@ -13,7 +13,7 @@ Meet the HydroSense team [here](./team/)
 # Openings
 
 1. [Current Openings](/join/currentopenings)
-2. [BTech Project(BTP)-IIT Dellhi](/join/btp)
+2. [BTech (BTP)-IIT Dellhi](/join/btp)
 3. [Research Internships](/join/internship)
 4. [PhD at IIT Delhi](/join/phd)
 5. [Postdoctoral Research](/join/postdoc)

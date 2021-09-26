@@ -37,16 +37,6 @@ tag = "tags"
     image = "img/logo2.svg"
     link = "/#home"
 
-#  [[params.navbar_hierarchy]]
-#    name = "SPS"
-#    link = "https://www.tue.nl/en/research/research-groups/signal-processing-systems/"
-#    position = 1
-
-#  [[params.navbar_hierarchy]]
-#    name = "HydroSense Lab"
-#    link = "/"
-#    position = 2
-
   # Selected Publications section.
   [params.publications_selected]
     detailed_list = true
@@ -78,7 +68,6 @@ tag = "tags"
     subtitle = ""
     count = 3
     str_all = "More Projects"
-
 
   # Contact section.
   [params.contact]

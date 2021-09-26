@@ -1,11 +1,11 @@
 +++
-id = "aysuh"
-name = "Ayush Prasad"
+id = "rajdeep"
+name = "Rajdeep Pandey"
 portrait = "portraits/default.svg"
-short_bio = "Later"
-title = "Ayush Prasad"
+short_bio = ""
+title = "Rajdeep Pandey"
 weight = 3
-sort_position = 6
+sort_position = 2
 [[social]]
     icon = "globe"
     icon_pack = "fa"
@@ -14,10 +14,10 @@ sort_position = 6
 [[social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "https://www.linkedin.com"
+    link = "https://linkedin.com"
 
 [[organizations]]
-    role = "Intern, SMIT , Started 2021"
+    role = "SPARSH FELLOW, Started 2021"
 
 +++
 

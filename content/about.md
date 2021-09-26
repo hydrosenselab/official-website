@@ -6,7 +6,8 @@ title="About"
 
 The goal of our research is to develop solutions for effective management of water resources and reducing the impact of natural hazards. We do so by simulating and investigating the terrestrial hydrological cycle using physics-based and data-driven models. We also develop systems for monitoring and mitigating water-related natural hazards such as floods and droughts, with a special focus on the worst-affected regions of the world. 
 
-![waterblockimage](/static/img/watercycleblock.jpg)
+<img src="/img/watercycleblock.jpg" alt="waterblock" width="50%" height="50%" align="right">
+
 # Research @HydroSense
 
 The goal of our research is to develop solutions for effective management of water resources and reducing the impact of natural hazards. Our research seeks to disentangle the complex relationships between geomorphology, climate, precipitation, and runoff generation using physics-based and data-driven models. Our interests include, but are not limited to:
@@ -21,7 +22,7 @@ The goal of our research is to develop solutions for effective management of wat
 We have active and on-going collaborations with Scientists and Professors from NASA Goddard Space Flight Center, National Center for Atmospheric Research (NCAR), University of Oklahoma/National Weather Center, UC Boulder, Indian Meteorological Department.
 
 
-[Recruiting at all levels](./join) (Interns/PhD/Postdoctoral)  
+[Recruiting at all levels](/join/intro) (Interns/PhD/Postdoctoral)  
 
 
 Dr. Manabendra Saharia   

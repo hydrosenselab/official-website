@@ -1,11 +1,10 @@
 +++
-id = "aysuh"
-name = "Ayush Prasad"
+id = "deepankkumar"
+name = "Deepank Kumar"
 portrait = "portraits/default.svg"
-short_bio = "Later"
-title = "Ayush Prasad"
+short_bio = "Intern"
 weight = 3
-sort_position = 6
+sort_position = 3
 [[social]]
     icon = "globe"
     icon_pack = "fa"
@@ -14,10 +13,10 @@ sort_position = 6
 [[social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "https://www.linkedin.com"
+    #link = "https://www.linkedin.com"
 
 [[organizations]]
-    role = "Intern, SMIT , Started 2021"
+    role = "Intern, MNIT Jaipur, Started 2021"
 
 +++
 

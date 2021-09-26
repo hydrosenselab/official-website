@@ -1,11 +1,11 @@
 +++
-id = "aysuh"
-name = "Ayush Prasad"
+id = "kaushalsharma"
+name = "Kaushal Sharma"
 portrait = "portraits/default.svg"
-short_bio = "Later"
-title = "Ayush Prasad"
+short_bio = ""
+title = "Kaushal Sharma"
 weight = 3
-sort_position = 6
+sort_position = 2
 [[social]]
     icon = "globe"
     icon_pack = "fa"
@@ -17,7 +17,7 @@ sort_position = 6
     link = "https://www.linkedin.com"
 
 [[organizations]]
-    role = "Intern, SMIT , Started 2021"
+    role = "B. Tech Project, IITD, 2021"
 
 +++
 
