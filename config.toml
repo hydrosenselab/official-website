@@ -109,7 +109,7 @@ tag = "tags"
 
   [[menu.main]]
     name = "Team"
-    url = "/#members"
+    url = "/team"
     weight = 5
 
   [[menu.main]]
