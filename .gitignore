@@ -126,5 +126,5 @@ sympy-plots-for-*.tex/
 *.sav
 
 .DS_Store
-public/
+public
 config.local.toml
