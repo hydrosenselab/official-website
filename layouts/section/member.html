@@ -15,15 +15,9 @@
             {{partial "member_li" .}}
         {{ end }}
     {{ end }}
-    <h2>Master's Students</h2>
-    {{ range .Data.Pages }}
-        {{ if eq .Params.weight 2}}
-            {{partial "member_li" .}}
-        {{ end }}
-    {{ end }}
     <h2>Undergraduate Students</h2>
     {{ range .Data.Pages }}
-        {{ if eq .Params.weight 3}}
+        {{ if eq .Params.weight 2}}
             {{partial "member_li" .}}
         {{ end }}
     {{ end }}
