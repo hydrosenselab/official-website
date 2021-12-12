@@ -17,7 +17,8 @@ sort_position = 2
     link = "https://www.linkedin.com/in/anagha-p-1a4b6b177/"
 
 [[organizations]]
-    role = "PhD Scholar, Started 2020"
+    role = "PhD Scholar, 2020- "
+    name = "Dept. of Civil Engineering"
 +++
 
 Anagha P has completed B.Tech in Computer Science and Engineering from Govt. Engineering College Wayanad and M.Tech in Geoinformatics from Indian Institute of Space Science and Technology, Trivandrum. She has got one-year experience as a Senior Data Analyst in Subex, Bengaluru. Her research interests include Deep Learning, Flood Forecasting, Optical and Microwave Image Processing.

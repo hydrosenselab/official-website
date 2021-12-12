@@ -2,7 +2,7 @@
 id = "shreya"
 name = "Shreya Gupta"
 portrait = "portraits/shreya-photo.jpg"
-short_bio = ""
+short_bio = "Data visualization, crowndsourcing, modeling"
 title = "Shreya Gupta"
 weight = 1
 sort_position = 8
@@ -18,7 +18,7 @@ sort_position = 8
     link = "https://www.linkedin.com/in/rasheeda-soudagar-93247b201"
 
 [[organizations]]
-    role = "JRF (MFIRP), Started 2021"
+    role = "Junior Research Fellow, 2021-"
 
 +++
 Data visualization, Modeling

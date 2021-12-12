@@ -2,7 +2,7 @@
 id = "nirdesh"
 name = "Nirdesh Sharma"
 portrait = "portraits/nirdesh-photo.jpg"
-short_bio = "Nirdesh Sharma has a Bachelor's degree in Civil Engineering from NIT Hamirpur"
+short_bio = "Nirdesh Sharma has a Bachelor's degree in Civil Engineering from NIT Hamirpur and was a DAAD-KOSPIE scholar at TU-Darmstadt during his M.Tech. in IIT Guwahati. His research interests include hydrological modelling, active and passive microwave remote sensing."
 title = "Nirdesh Sharma"
 weight = 1
 sort_position = 2
@@ -17,7 +17,7 @@ sort_position = 2
     link = "https://www.linkedin.com/in/nirdesh-kumar-sharma-072540122/"
 
 [[organizations]]
-    role = "PhD Scholar, Started 2020"
+    role = "PhD Scholar, 2020-"
 
 +++
 

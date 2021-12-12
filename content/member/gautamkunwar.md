@@ -2,9 +2,9 @@
 id = "Gautam Kunwar"
 name = "Gautum Kunwar"
 portrait = "portraits/gautamkunwar-photo.jpg"
-short_bio = "Gautam have done his B-Tech + Mtech (2017-2022) from IIT Delhi"
-title = "Ayush Pandey"
-weight = 2
+short_bio = "Gautam have done his B.Tech. and M.Tech. (2017-2022) from IIT Delhi"
+title = "Gautam Kunwar"
+weight = 1
 sort_position = 2
 [[social]]
     icon = "globe"
@@ -17,7 +17,7 @@ sort_position = 2
     link = "https://www.linkedin.com/in/gautam-kunwar-1962ab15a/"
 
 [[organizations]]
-    role = "M. Tech Project, IITD, 2021"
+    role = "M. Tech Project, 2021-"
 
 +++
 

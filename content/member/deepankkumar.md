@@ -2,8 +2,8 @@
 id = "deepankkumar"
 name = "Deepank Kumar"
 portrait = "portraits/default.svg"
-short_bio = "Intern"
-weight = 3
+short_bio = "Deepank has a B.Tech (Civil Engineering) from MNIT Jaipur"
+weight = 2
 sort_position = 3
 [[social]]
     icon = "globe"
@@ -16,8 +16,7 @@ sort_position = 3
     #link = "https://www.linkedin.com"
 
 [[organizations]]
-    role = "Intern, MNIT Jaipur, Started 2021"
-
+    role = "Intern, MNIT Jaipur, 2021-2022"
 +++
 
-LATER
+Deepank has a B.Tech (Civil Engineering) from MNIT Jaipur

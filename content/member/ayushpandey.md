@@ -4,7 +4,7 @@ name = "Ayush Pandey"
 portrait = "portraits/ayush-photo.jpg"
 short_bio = "Anagha P has completed B.Tech in Computer Science and Engineering from Govt. Engineering College Wayanad"
 title = "Ayush Pandey"
-weight = 3
+weight = 2
 sort_position = 2
 [[social]]
     icon = "globe"
