@@ -9,13 +9,13 @@
             {{partial "member_li" .}}
         {{ end }}
     {{ end }}
-    <h2> Graduate Students and Project Staff </h2>
+    <h2> Graduate Scholars and Project Staff </h2>
     {{ range .Data.Pages }}
         {{ if eq .Params.weight 1}}
             {{partial "member_li" .}}
         {{ end }}
     {{ end }}
-    <h2>Undergraduate Students</h2>
+    <h2>Undergraduates and Interns</h2>
     {{ range .Data.Pages }}
         {{ if eq .Params.weight 2}}
             {{partial "member_li" .}}
