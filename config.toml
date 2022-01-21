@@ -20,7 +20,7 @@ tag = "tags"
       unsafe = true
 
 [params]
-  description = "Website of research group"
+  description = "Website of HydroSense Lab"
   author = "Hydrosense Lab"
   phone = "+91-011-26591260"
   email = "msaharia@iitd.ac.in"

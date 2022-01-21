@@ -6,7 +6,6 @@ title="About"
 
 The goal of our research is to develop solutions for effective management of water resources and reducing the impact of natural hazards. We do so by simulating and investigating the terrestrial hydrological cycle using physics-based and data-driven models. We also develop systems for monitoring and mitigating water-related natural hazards such as floods and droughts, with a special focus on the worst-affected regions of the world. 
 
-<img src="/img/watercycleblock.jpg" alt="waterblock" width="50%" height="50%" align="right">
 
 # Research @HydroSense
 
@@ -29,3 +28,5 @@ Dr. Manabendra Saharia
 Assistant Professor         
 Dept. of Civil Engineering         
 Indian Institute of Technology Delhi
+
+<img src="/img/watercycleblock.jpg" alt="waterblock" width="50%" height="50%" align="right">
