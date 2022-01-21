@@ -19,8 +19,5 @@ url_video = ""
 [[authors]]
     name = "Dr. Manabendra Saharia"
     id = "msaharia"
-[[authors]]
-    name = "Avish Jain"
-    id = "avish"
 
 +++

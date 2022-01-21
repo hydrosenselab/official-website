@@ -2,7 +2,7 @@
 date = "2020-07-12T16:10:22+02:00"
 external_link = ""
 project_id = "Flashiness in the United States"
-picture = ""
+picture = "flashiness-us.jpg"
 short_description = "Mapping flood flood severity in the United States using data-driven techniques."
 title = "Flashiness in the United States"
 participants_block_position = "down"
