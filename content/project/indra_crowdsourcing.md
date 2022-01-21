@@ -1,5 +1,4 @@
 +++
-date = "2020-07-12T16:10:22+02:00"
 external_link = ""
 project_id = ""
 picture = "INDRA-banner.png"
