@@ -1,31 +1,14 @@
-#!/bin/bash
-# Push the changes to biaslab.github.io
+#!/bin/sh
 
-CHECKOUT="/tmp/biaslab.github.io.git"
+echo "Removing existing files"
+rm -rf public/*
 
-rm -f -r $CHECKOUT
-git clone git@github.com:biaslab/biaslab.github.io.git $CHECKOUT
+echo "Generating site"
+hugo
 
-BUILDPATH=$PWD
+echo "Updating master branch"
+cd public && git add --all && git commit -m "Publishing to Github Pages (publish.sh)"
 
-cd $BUILDPATH/themes/academic-group
-git checkout master
-git pull
-cd $BUILDPATH
+git push
 
-rm -f -r $BUILDPATH/public/*
-
-hugo -t academic-group
-
-cd $CHECKOUT
-rm -f -r $CHECKOUT/*
-cp -r $BUILDPATH/public/* $CHECKOUT/
-
-git add -A
-git commit -m "Website update"
-git push origin master
-
-cd $BUILDPATH
-rm -f -r $CHECKOUT
-
-echo "All done."
+scp -r public/* msaharia@hydrosense.iitd.ac.in:/var/www/hydrosense/https/html

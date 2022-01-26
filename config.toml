@@ -90,11 +90,6 @@ tag = "tags"
     weight = 2
 
   [[menu.main]]
-    name = "Research"
-    weight = 2
-    identifier = "research"
-
-  [[menu.main]]
     name = "Projects"
     url = "/#projects"
     #parent = "research"
