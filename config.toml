@@ -50,13 +50,13 @@ tag = "tags"
     detailed_list = false
     title = "Publications"
     subtitle = ""
-    str_all = "More Publications"
+    str_all = "All Publications"
 
   # Posts section.
   # Section will only be displayed if there are posts in `content/post/`.
   [params.posts]
     count = 2
-    title = "Blog"
+    title = "News"
     subtitle = ""
     str_all = "More Posts"
     str_read_more = "Read more"
@@ -87,7 +87,6 @@ tag = "tags"
   [[menu.main]]
     name = "Publications"
     url = "/publication"
-    parent="research"
     weight = 3
 
   [[menu.main]]
