@@ -1,7 +1,5 @@
 +++
 abstract = ""
-abstract_short = ""
-authors = [""]
 image = ""
 image_preview = ""
 math = false
@@ -16,4 +14,11 @@ url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
+
+[[authors]]
+    name = ""
+    id = ""
+
+    name = ""
+    id = ""
 +++
