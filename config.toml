@@ -56,9 +56,9 @@ tag = "tags"
   # Section will only be displayed if there are posts in `content/post/`.
   [params.posts]
     count = 2
-    title = "News"
+    title = "Latest News"
     subtitle = ""
-    str_all = "More Posts"
+    str_all = "More News"
     str_read_more = "Read more"
 
   # Projects section.
@@ -97,13 +97,12 @@ tag = "tags"
   [[menu.main]]
     name = "Projects"
     url = "/#projects"
-    parent = "research"
+    #parent = "research"
     weight = 2
 
   [[menu.main]]
-    name = "Blog"
+    name = "News"
     url = "/#posts"
-    parent = "research"
     weight = 4
 
   [[menu.main]]
