@@ -1,7 +1,7 @@
 +++
 title = "Flash Flood Prediction"
 external_link = ""
-short_description = "Mapping flood flood severity using data-driven techniques."
+short_description = "Characterizing and Predicting Flash Floods using statistics and machine learning."
 project_id = "flash-flood-severity"
 picture = "flashiness-us.jpg"
 sort_position = 1

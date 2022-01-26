@@ -2,7 +2,7 @@
 external_link = ""
 project_id = "India Flood Inventory"
 picture = "ifi.png"
-short_description = "We are building a historical flood observation database over India."
+short_description = "The first freely available, analysis-ready geospatial dataset of floods over India"
 title= "India Flood Inventory"
 participants_block_position = "down"
 sort_position = 3
