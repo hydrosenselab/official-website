@@ -19,6 +19,7 @@ url_video = ""
     name = ""
     id = ""
 
+[[authors]]
     name = ""
     id = ""
 +++
