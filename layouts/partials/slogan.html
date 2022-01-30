@@ -1,22 +1,38 @@
-<div class="pitch-large-screens">
-      <div class="landing-pitch-md">
-            {{ with .Site.Params.landing_heading }}<h1 class="landing-heading">{{.}}</h1>{{end}}
-            {{ with .Site.Params.landing_description }}<h2 class="landing-description"> {{.|safeHTML}} </h2>{{end}}
-            <a class="btn btn-pitch btn-outline" href="/about">Find out more</a>
+{{if .Site.Data.features}}
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="custom-landing-header">
+      {{ with .Site.Params.landing_heading }}
+      <h1 class="landing-heading">{{.}}</h1>
+      {{end}} {{ with .Site.Params.landing_description }}
+      <h2 class="landing-description">{{.|safeHTML}}</h2>
+      {{end}}
+      <a class="btn btn-pitch btn-outline" href="/about">Find out more</a>
+    </div>
+    <div class="row justify-content-center">
+      {{ range .Site.Data.features }}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="card" style="width: 18rem">
+          {{ if .image }}
+          <img
+            style="
+              width: 80px;
+              height: 80px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            "
+            class="card-img-top"
+            alt="{{ .title }} logo"
+            src="{{ .image | relURL }}"
+          />
+          {{ end }}
+          <div class="card-body">
+            <h2 class="card-title">{{ .title }}</h2>
+            <p class="card-text">{{ .description }}</p>
+          </div>
+        </div>
       </div>
-</div>
-
-<div class="pitch-small-screens">
-      <div class="container">
-            <div class="landing-pitch-xs">
-                  {{ with .Site.Params.landing_heading }}<h1 class="landing-heading">{{.}}</h1>{{end}}
-                  {{ with .Site.Params.landing_description }}<h2 class="landing-description"> {{.|safeHTML}} </h2>{{end}}
-                  <a class="btn btn-pitch btn-outline" href="/about">Find out more</a>
-            </div>
-      </div>
-</div>
-
-<div class = "banner">
-            <p id="my-image"><img src="img/home-banner.jpg">
-            </p>
-      </div>
+      {{end}}
+    </div>
+  </div>
+{{end}}

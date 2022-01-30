@@ -30,7 +30,7 @@ tag = "tags"
   slogan_text = "Bayesian Intelligent Autonomous Systems"
   custom_css = ["hydrosense.css"]
   landing_heading = "HydroSense Lab"
-  landing_description = "Monitoring and Mitigating Natural Hazards"
+  landing_description = "Developing Solutions for Sustainable Management of Water Resources and Mitigating Natural Hazards"
   positions_available = true
 
   [params.logo]
@@ -51,15 +51,6 @@ tag = "tags"
     title = "Publications"
     subtitle = ""
     str_all = "All Publications"
-
-  # Posts section.
-  # Section will only be displayed if there are posts in `content/post/`.
-  [params.posts]
-    count = 2
-    title = "Latest News"
-    subtitle = ""
-    str_all = "More News"
-    str_read_more = "Read more"
 
   # Projects section.
   # Section will only be displayed if there are projects in `content/project/`.
