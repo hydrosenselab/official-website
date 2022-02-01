@@ -35,7 +35,7 @@ tag = "tags"
 
   [params.logo]
     image = "img/banner.png"
-    link = "/#home"
+    link = "/"
 
   # Selected Publications section.
   [params.publications_selected]
