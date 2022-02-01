@@ -30,11 +30,11 @@ tag = "tags"
   slogan_text = "Bayesian Intelligent Autonomous Systems"
   custom_css = ["hydrosense.css"]
   landing_heading = ""
-  landing_description = "Developing Solutions for Sustainable Management of Water Resources and Mitigating Natural Hazards"
+  landing_description = "Developing Solutions for Monitoring and Mitigating Natural Hazards"
   positions_available = true
 
   [params.logo]
-    image = "img/logo2.svg"
+    image = "img/banner.png"
     link = "/#home"
 
   # Selected Publications section.
