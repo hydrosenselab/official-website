@@ -26,10 +26,10 @@ sort_position = 1
 [[social]]
     icon = "file"
     icon_pack = "fa"
-    link = "https://hydrosenselab.github.io/CV/msaharia_cv.pdf"
+    link = "/msaharia_cv.pdf"
 
 [[organizations]]
-    name = "Dept. of Civil Engineering"
+    name = "Dept. of Civil Engineering, IIT Delhi"
     role = "Assistant Professor"
 
 +++
