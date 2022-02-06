@@ -52,6 +52,12 @@ tag = "tags"
     subtitle = ""
     str_all = "All Publications"
 
+  [params.posts]
+    title = "News"
+    subtitle = ""
+    count = 3
+    str_all = "More News"
+
   # Projects section.
   # Section will only be displayed if there are projects in `content/project/`.
   [params.projects]
