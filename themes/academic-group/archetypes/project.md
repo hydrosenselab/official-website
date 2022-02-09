@@ -1,13 +1,23 @@
 +++
-description = ""
-short_description = ""
-project_id = ""
-image = ""
 external_link = ""
-include_participants_portraits = false
-sort_position = 1
+project_id = ""
+date = ""
+picture = ""
+short_description = ""
+title= ""
+participants_block_position = "down"
+sort_position = 3
+
+
 [[participants]]
     name = ""
-    is_member = true
+    id = ""
+
+[[participants]]
+    name = ""
+    id = ""
+
+[[participants]]
+    name = ""
     id = ""
 +++

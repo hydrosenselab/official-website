@@ -1,6 +1,7 @@
 +++
 external_link = ""
 project_id = "India Flood Inventory"
+date = "2020-07-18"
 picture = "ifi.png"
 short_description = "The first freely available, analysis-ready geospatial dataset of floods over India"
 title= "India Flood Inventory"

@@ -1,0 +1,36 @@
+{{ $news_len := len (where (where .Site.RegularPages "Type" "news") ".Params.notonhomepage" nil) }}
+{{ if gt $news_len 0 }}
+<section id="news" class="home-section">
+    <div class="container">
+        <div class="row">
+            
+            <!-- Section heading -->
+            <div class="col-xs-12 col-md-4 section-heading">
+                <h1><a href="{{ $.Site.BaseURL }}/news/{{if .Site.Params.uglyURLs}}index.html{{end}}"> {{ with .Site.Params.news.title }}{{ . | markdownify }}{{ end }}</a></h1>
+                {{ with .Site.Params.news.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+            </div>
+            
+            <!-- Posts -->
+            <div class="col-xs-12 col-md-8">
+                {{ range first .Site.Params.news.count (sort (where .Site.RegularPages "Type" "news") ".Params.sort_position") }}
+                    {{ partial "index/news" .}}
+                {{ end }}
+            </div>
+            
+        </div>
+
+        <!-- Link to all posts -->
+        <div>
+            {{ if gt $news_len .Site.Params.news.count }}
+                <p class="view-all">
+                    <a href="{{ .Site.BaseURL }}/news/{{if .Site.Params.uglyURLs}}index.html{{end}}">
+                        {{ with .Site.Params.news.str_all }}{{ . | markdownify }}{{ end }}
+                        <i class="fa fa-angle-double-right"></i>
+                    </a>
+                </p>
+            {{ end }}
+        </div>
+        
+    </div>
+</section>
+{{ end }}

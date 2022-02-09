@@ -61,7 +61,7 @@ tag = "tags"
 
   # Posts section.
   # Section will only be displayed if there are posts in `content/post/`.
-  [params.posts]
+  [params.news]
     count = 2
     title = "Blog"
     subtitle = ""
@@ -121,7 +121,7 @@ tag = "tags"
 
   [[menu.main]]
       name = "Blog"
-      url = "/#posts"
+      url = "/news"
       weight = 6
 
 

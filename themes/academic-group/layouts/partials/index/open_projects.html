@@ -39,7 +39,7 @@
                             
                             {{ if .Content }}
                             <a href="{{ .Scratch.Get "link" }}" class="btn btn-primary btn-outline">
-                                {{ with .Site.Params.posts.str_read_more }}{{ . | markdownify }}{{ end }}
+                                {{ with .Site.Params.news.str_read_more }}{{ . | markdownify }}{{ end }}
                             </a>
                             {{ end }}
                         </p>
