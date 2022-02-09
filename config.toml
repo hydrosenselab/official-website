@@ -7,7 +7,7 @@ canonifyurls = true
 theme = "academic-group"
 title = "HydroSense Lab"
 math = true
-copyright = "&copy; Hydrosense Lab, 2021 "
+copyright = "&copy; Manabendra Saharia, 2021 "
 enableRobotsTXT = true
 
 [taxonomies]
