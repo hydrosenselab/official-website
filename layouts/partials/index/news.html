@@ -1,6 +1,6 @@
 {{ $news_len := len (where (where .Site.RegularPages "Type" "news") ".Params.notonhomepage" nil) }}
 {{ if gt $news_len 0 }}
-<section id="news" class="home-section">
+<section id="posts" class="home-section">
     <div class="container">
         <div class="row">
             
@@ -13,7 +13,7 @@
             <!-- Posts -->
             <div class="col-xs-12 col-md-8">
                 {{ range first .Site.Params.news.count (sort (where .Site.RegularPages "Type" "news") ".Params.sort_position") }}
-                    {{ partial "index/news" .}}
+                    {{ partial "index/single_news" .}}
                 {{ end }}
             </div>
             

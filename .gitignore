@@ -128,3 +128,4 @@ sympy-plots-for-*.tex/
 .DS_Store
 public
 config.local.toml
+.hugo_build.lock
