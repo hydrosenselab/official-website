@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Projects</h1>
+
+            {{ range .Data.Pages.GroupByDate "2006" }}
+            <div class="row" id="pub_list">
+                <div class="col-md-12">
+                    {{ range .Pages.ByDate.Reverse }}
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" style="height: 10vw; object-fit: cover;" src= '{{ .Site.BaseURL }}/img/{{.Params.picture}}' alt="{{ .Title }}">
+                            <div class="card-body">
+                                <h3 class="card-title">{{ .Title }}</h3>
+                                {{ if .Params.short_description }}
+                                    <p class="card-text" style="text-align: justify; text-justify: inter-word;"> {{ .Params.short_description | markdownify}} </p>
+                                {{ else }}
+                                    {{ with .Params.description }}
+                                    <p class="card-text">{{ . | markdownify}}</p>
+                                    {{ end }}
+                                    {{ end }}
+                                <a href="{{ .Permalink }}" itemprop="url" class="btn btn-primary">Project Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+</div>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
