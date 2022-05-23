@@ -14,7 +14,7 @@
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" style="height: 10vw; object-fit: cover;" src= '{{ .Site.BaseURL }}/img/{{.Params.picture}}' alt="{{ .Title }}">
                             <div class="card-body">
-                                <h3 class="card-title">{{ .Title }}</h3>
+                                <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                                 {{ if .Params.short_description }}
                                     <p class="card-text" style="text-align: justify; text-justify: inter-word;"> {{ .Params.short_description | markdownify}} </p>
                                 {{ else }}
@@ -22,7 +22,6 @@
                                     <p class="card-text">{{ . | markdownify}}</p>
                                     {{ end }}
                                     {{ end }}
-                                <a href="{{ .Permalink }}" itemprop="url" class="btn btn-primary">Project Link</a>
                             </div>
                         </div>
                     </div>
