@@ -1,18 +1,34 @@
 [
     {
-        "name":"Adil Bin Bhutto",
-        "about":"Development of INDRA Dashboard"
+        "name":"Avish Jain (BTP, 2020)",
+        "about":"Data analysis, deep learning, social media analytics. Next: AMEX"
     },
     {
-        "name":"Avish Jain",
-        "about":"Data analysis, deep learning, social media analytics"
+        "name":"Jatin Ahuja (BTP, 2020)",
+        "about":"Streamflow variablity"
     },
     {
-        "name":"Jatin Ahuja",
-        "about":"Streaflow variablity"
+        "name":"Khushboo Alvi (MTP, 2021)",
+        "about": "Streamflow and Machine Learning"
     },
     {
-        "name":"Khushboo Alvi",
-        "about": "Streaflow variablity"
+        "name":"Deepank Kumar (Intern, 2021)",
+        "about": "Flood recovery. Next: University of Houston (PhD position)"
+    },
+    {
+        "name":"Rohit Garga (BTP, 2021)",
+        "about": "A Deep Learning-based Methodology for SAR-based Flood Mapping"
+    },
+    {
+        "name":"Kaushal Sharma (BTP, 2021)",
+        "about": "Applications of SAR in floods. "
+    },
+    {
+        "name":"Ayush Pandey (Intern+BTP, 2019-2022)",
+        "about": "Data mining and machine learning."
+    },
+    {
+        "name":"Gautam Kunwar (BTP+MTP, 2020-2022)",
+        "about": "Groundwater and land surface models."
     }
 ]
