@@ -9,14 +9,16 @@ sort_position = 1
 +++
 
 # Published Papers 
-1. [Flashiness in the United States](#flashiness-us)
-2. [Characterization of floods in the United States](#flood-charac)
-3. [On the Impact of Rainfall Spatial Variability, Geomorphology, and Climatology on Flash Floods](#rsv1)
+- [Toward Predicting Flood Event Peak Discharge in Ungauged Basins by Learning Universal Hydrological Behaviors with Machine Learning](#mlpeak) | [Journal of Hydrometeorology](https://journals.ametsoc.org/view/journals/hydr/22/11/JHM-D-20-0302.1.xml) | Lead: Akhil Potdar
+- [On the Impact of Rainfall Spatial Variability, Geomorphology, and Climatology on Flash Floods](#rsv1) | [Water Resources Research](https://doi.org/10.1029/2020WR029124) | Lead: Manabendra Saharia 
+- [Characterization of Floods in the United States](#flood-charac) | [Journal of Hydrology](http://dx.doi.org/10.1016/j.jhydrol.2017.03.010) | Lead: Manabendra Saharia
+- [Flashiness in the United States](#flashiness-us) | [Dataset]() | [Journal of Hydrometeorology)](https://journals.ametsoc.org/view/journals/hydr/18/2/jhm-d-16-0082_1.xml) | Lead: Manabendra Saharia
+
 
 ### Flashiness in the United States <a name="flashiness-us"></a>
-Some introduction text, formatted in heading 2 style
+Test
 
 ### Characterization of floods in the United States <a name="flood-charac"></a>
-The first paragraph text
+Test
 
 ### On the Impact of Rainfall Spatial Variability, Geomorphology, and Climatology on Flash Floods <a name="rsv1"></a>
