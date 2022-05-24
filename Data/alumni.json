@@ -1,34 +1,46 @@
 [
     {
-        "name":"Avish Jain (BTP, 2020)",
-        "about":"Data analysis, deep learning, social media analytics. Next: AMEX"
+        "name":"Yash Pandey (BTP)",
+        "about": "Next: Stanford"
     },
     {
-        "name":"Jatin Ahuja (BTP, 2020)",
+        "name":"Deepank Kumar (Intern)",
+        "about": "Next: Uni of Houston"
+    },
+    {
+        "name":"Avish Jain (BTP)",
+        "about":"Next: AMEX"
+    },
+    {
+        "name":"Jatin Ahuja (BTP)",
         "about":"Streamflow variablity"
     },
     {
-        "name":"Khushboo Alvi (MTP, 2021)",
-        "about": "Streamflow and Machine Learning"
+        "name":"Khushboo Alvi (MTP)",
+        "about": "Floods"
     },
     {
-        "name":"Deepank Kumar (Intern, 2021)",
-        "about": "Flood recovery. Next: University of Houston (PhD position)"
+        "name":"Saagar Haobam (Intern)",
+        "about": "India Flood Inventory"
     },
     {
-        "name":"Rohit Garga (BTP, 2021)",
-        "about": "A Deep Learning-based Methodology for SAR-based Flood Mapping"
+        "name":"Ronit Baishya (Intern)",
+        "about": "India Flood Inventory"
     },
     {
-        "name":"Kaushal Sharma (BTP, 2021)",
-        "about": "Applications of SAR in floods. "
+        "name":"Rohit Garga (BTP)",
+        "about": "Deep Learning and SAR"
     },
     {
-        "name":"Ayush Pandey (Intern+BTP, 2019-2022)",
+        "name":"Kaushal Sharma (BTP)",
+        "about": "Deep Learning and SAR"
+    },
+    {
+        "name":"Ayush Pandey (BTP)",
         "about": "Data mining and machine learning."
     },
     {
-        "name":"Gautam Kunwar (BTP+MTP, 2020-2022)",
+        "name":"Gautam Kunwar (BTP+MTP)",
         "about": "Groundwater and land surface models."
     }
 ]
