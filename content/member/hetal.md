@@ -4,7 +4,7 @@ name = "Hetal Priyadarshi"
 portrait = "portraits/default.svg"
 weight = 2
 
-short_bio = " "
+short_bio = " INSERT BIO "
 
 [[social]]
     icon = "globe"
