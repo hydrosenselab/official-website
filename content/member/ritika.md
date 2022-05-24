@@ -3,7 +3,7 @@ name = "Ritika Dubey"
 portrait = "portraits/default.svg"
 weight = 2
 
-short_bio = "INSERT BIO IN THIRD PERSON "
+short_bio = "INSERT BIO "
 
 [[social]]
     icon = "linkedin"
