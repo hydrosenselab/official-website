@@ -2,7 +2,7 @@
 id = "raviraj"
 name = "Ravi Raj"
 portrait = "portraits/raviraj-photo.jpg"
-short_bio = "To be updated"
+short_bio = "Ravi Raj is pursuing his PhD in erosion"
 title = "Ravi Raj"
 weight = 1
 sort_position = 2
@@ -20,4 +20,3 @@ sort_position = 2
     role = "PhD Scholar [co-advised], 2019-"
 +++
 
-To be updated.
