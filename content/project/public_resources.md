@@ -5,22 +5,7 @@ date = "2020-07-18"
 picture = ""
 short_description = "We believe that anyone around the world should be able to use and extend our work. We strive to make the tools and datasets we develop freely available to the public in the spirit of Open Science."
 title = "Public Resources"
-participants_block_position = "down"
 sort_position = 3
-
-
-[[participants]]
-    name = "Manabendra Saharia"
-    id = "msaharia"
-
-[[participants]]
-    name = ""
-    id = ""
-
-[[participants]]
-    name = ""
-    id = ""
-
 +++
 ## Description
 

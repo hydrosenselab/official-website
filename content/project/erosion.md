@@ -9,7 +9,7 @@ sort_position = 4
 +++
 
 ## Published Research
-1. [Rainfall Erosivity over India](#erosivity-india) | [Download Indian Rainfall Erosivity Dataset (IRED)](https://zenodo.org/record/6470233) | [Published paper (CATENA)](https://doi.org/10.1016/j.catena.2022.106256)
+1. [Rainfall Erosivity over India](#erosivity-india) | [Download Indian Rainfall Erosivity Dataset (IRED)](https://zenodo.org/record/6470233) | [Publication (CATENA)](https://doi.org/10.1016/j.catena.2022.106256) | Lead: Ravi Raj ( IITD) 
 
 ### Mapping rainfall erosivity over India using multiple precipitation datasets <a name="erosivity-india"></a>
 
