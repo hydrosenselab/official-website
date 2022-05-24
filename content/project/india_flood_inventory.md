@@ -1,31 +1,14 @@
 +++
 external_link = ""
-project_id = "India Flood Inventory"
+project_id = "ifi"
 date = "2020-07-18"
 picture = "ifi.png"
 short_description = "The first freely available, analysis-ready geospatial dataset of floods over India"
 title= "India Flood Inventory"
-participants_block_position = "down"
 sort_position = 3
-
-
-[[participants]]
-    name = "Manabendra Saharia"
-    id = "msaharia"
-
-[[participants]]
-    name = "Avish Jain"
-    id = "avish"
-
-[[participants]]
-    name = ""
-    id = ""
-
 +++
 
-## Description
+The first freely available, analysis-ready geospatial dataset of floods over India. Developed in collaboration with Indian Meteorological Department (IMD)..
 
-We are building a historical flood observation database over India.
+### [Freely-Available Database](https://github.com/hydrosenselab/India-Flood-Inventory) | [Published Paper](https://doi.org/10.1007/s11069-021-04698-6)
 
-
-[Page under Construction]
