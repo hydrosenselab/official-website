@@ -83,7 +83,7 @@ tag = "tags"
 
   [[menu.main]]
     name = "Projects"
-    url = "/#projects"
+    url = "/project"
     #parent = "research"
     weight = 3
 
