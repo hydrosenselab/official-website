@@ -1,17 +1,17 @@
 [
   {
     "title": "Hydrologic Modeling and Data Assimilation",
-    "description": "Continental to local scales using land surface and routing models. Combining observations with simulations to produce optimal states.",
+    "description": "Water resources modeling and forecasting at local to global scales using land surface and routing models.",
     "image": "img/features/earthmodel.svg"
   },
   {
-    "title": "Remote Sensing Applications",
-    "description": "Satellite and radar precipitation, inundation mapping, etc.",
-    "image": "img/features/satellite.svg"
+    "title": "Machine Learning, and Citizen Science",
+    "description": "Data-driven techniques to extract knowledge from structured and unstructured earth observation data.",
+    "image": "img/features/data.svg"
   },
   {
-    "title": "Statistics, Machine Learning, and Citizen Science",
-    "description": "Data-driven techniques to extract knowledge from structured and unstructured data.",
-    "image": "img/features/data.svg"
+    "title": "Remote Sensing Applications",
+    "description": "Satellite and radar precipitation, flood inundation mapping, gravimetry, etc.",
+    "image": "img/features/satellite.svg"
   }
 ]
