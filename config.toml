@@ -54,9 +54,9 @@ tag = "tags"
 
   # Projects section.
   # Section will only be displayed if there are projects in `content/project/`.
-  [params.projects]
+  [params.research]
     count = 2
-    title = "Projects"
+    title = "Research"
     subtitle = ""
     str_all = "More Projects"
     str_read_more = "Read more"
@@ -82,8 +82,8 @@ tag = "tags"
     weight = 2
 
   [[menu.main]]
-    name = "Projects"
-    url = "/project"
+    name = "Research"
+    url = "/research"
     #parent = "research"
     weight = 3
 

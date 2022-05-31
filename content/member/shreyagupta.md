@@ -10,12 +10,12 @@ sort_position = 8
 [[social]]
     icon = "globe"
     icon_pack = "fa"
-    link = ""
+    link = "https://shreya.codes"
 
 [[social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "https://www.linkedin.com/in/rasheeda-soudagar-93247b201"
+    link = "https://www.linkedin.com/in/shreyagupta30"
 
 [[organizations]]
     role = "Junior Research Fellow, 2021-"
